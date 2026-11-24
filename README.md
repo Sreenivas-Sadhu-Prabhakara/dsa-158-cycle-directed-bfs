@@ -12,6 +12,13 @@ A vertex with indegree zero cannot be part of any cycle (nothing feeds it), so i
 
 **Complexity:** O(V+E) time, O(V) space.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
